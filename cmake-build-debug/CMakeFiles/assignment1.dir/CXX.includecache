@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/260153183qq.com/Desktop/assignment1/main.cpp
+stdio.h
+-
+thread.h
+/Users/260153183qq.com/Desktop/assignment1/thread.h
+string.h
+-
+iostream
+-
+algorithm
+-
+task.h
+/Users/260153183qq.com/Desktop/assignment1/task.h
+waitqueue.h
+/Users/260153183qq.com/Desktop/assignment1/waitqueue.h
+
+/Users/260153183qq.com/Desktop/assignment1/task.h
+
+/Users/260153183qq.com/Desktop/assignment1/thread.h
+
+/Users/260153183qq.com/Desktop/assignment1/waitqueue.h
+list
+-
+task.h
+/Users/260153183qq.com/Desktop/assignment1/task.h
+limits.h
+-
+
