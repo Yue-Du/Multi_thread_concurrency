@@ -87,13 +87,22 @@
 		<Unit filename="/Users/260153183qq.com/Desktop/assignment1/consumer.h">
 			<Option target="assignment1"/>
 		</Unit>
+		<Unit filename="/Users/260153183qq.com/Desktop/assignment1/cv_test.cc">
+			<Option target="assignment1"/>
+		</Unit>
 		<Unit filename="/Users/260153183qq.com/Desktop/assignment1/interrupt.h">
+			<Option target="assignment1"/>
+		</Unit>
+		<Unit filename="/Users/260153183qq.com/Desktop/assignment1/lock_test.cc">
 			<Option target="assignment1"/>
 		</Unit>
 		<Unit filename="/Users/260153183qq.com/Desktop/assignment1/main.cpp">
 			<Option target="assignment1"/>
 		</Unit>
 		<Unit filename="/Users/260153183qq.com/Desktop/assignment1/main_new.cpp">
+			<Option target="assignment1"/>
+		</Unit>
+		<Unit filename="/Users/260153183qq.com/Desktop/assignment1/mykernel.cpp">
 			<Option target="assignment1"/>
 		</Unit>
 		<Unit filename="/Users/260153183qq.com/Desktop/assignment1/producer.h">
@@ -106,6 +115,9 @@
 			<Option target="assignment1"/>
 		</Unit>
 		<Unit filename="/Users/260153183qq.com/Desktop/assignment1/thread.h">
+			<Option target="assignment1"/>
+		</Unit>
+		<Unit filename="/Users/260153183qq.com/Desktop/assignment1/thread_test.cc">
 			<Option target="assignment1"/>
 		</Unit>
 		<Unit filename="/Users/260153183qq.com/Desktop/assignment1/waitqueue.h">

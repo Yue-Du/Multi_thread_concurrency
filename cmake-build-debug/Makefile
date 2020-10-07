@@ -123,6 +123,60 @@ assignment1/fast:
 	$(MAKE) -f CMakeFiles/assignment1.dir/build.make CMakeFiles/assignment1.dir/build
 .PHONY : assignment1/fast
 
+cv_test.o: cv_test.cc.o
+
+.PHONY : cv_test.o
+
+# target to build an object file
+cv_test.cc.o:
+	$(MAKE) -f CMakeFiles/assignment1.dir/build.make CMakeFiles/assignment1.dir/cv_test.cc.o
+.PHONY : cv_test.cc.o
+
+cv_test.i: cv_test.cc.i
+
+.PHONY : cv_test.i
+
+# target to preprocess a source file
+cv_test.cc.i:
+	$(MAKE) -f CMakeFiles/assignment1.dir/build.make CMakeFiles/assignment1.dir/cv_test.cc.i
+.PHONY : cv_test.cc.i
+
+cv_test.s: cv_test.cc.s
+
+.PHONY : cv_test.s
+
+# target to generate assembly for a file
+cv_test.cc.s:
+	$(MAKE) -f CMakeFiles/assignment1.dir/build.make CMakeFiles/assignment1.dir/cv_test.cc.s
+.PHONY : cv_test.cc.s
+
+lock_test.o: lock_test.cc.o
+
+.PHONY : lock_test.o
+
+# target to build an object file
+lock_test.cc.o:
+	$(MAKE) -f CMakeFiles/assignment1.dir/build.make CMakeFiles/assignment1.dir/lock_test.cc.o
+.PHONY : lock_test.cc.o
+
+lock_test.i: lock_test.cc.i
+
+.PHONY : lock_test.i
+
+# target to preprocess a source file
+lock_test.cc.i:
+	$(MAKE) -f CMakeFiles/assignment1.dir/build.make CMakeFiles/assignment1.dir/lock_test.cc.i
+.PHONY : lock_test.cc.i
+
+lock_test.s: lock_test.cc.s
+
+.PHONY : lock_test.s
+
+# target to generate assembly for a file
+lock_test.cc.s:
+	$(MAKE) -f CMakeFiles/assignment1.dir/build.make CMakeFiles/assignment1.dir/lock_test.cc.s
+.PHONY : lock_test.cc.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -177,6 +231,60 @@ main_new.cpp.s:
 	$(MAKE) -f CMakeFiles/assignment1.dir/build.make CMakeFiles/assignment1.dir/main_new.cpp.s
 .PHONY : main_new.cpp.s
 
+mykernel.o: mykernel.cpp.o
+
+.PHONY : mykernel.o
+
+# target to build an object file
+mykernel.cpp.o:
+	$(MAKE) -f CMakeFiles/assignment1.dir/build.make CMakeFiles/assignment1.dir/mykernel.cpp.o
+.PHONY : mykernel.cpp.o
+
+mykernel.i: mykernel.cpp.i
+
+.PHONY : mykernel.i
+
+# target to preprocess a source file
+mykernel.cpp.i:
+	$(MAKE) -f CMakeFiles/assignment1.dir/build.make CMakeFiles/assignment1.dir/mykernel.cpp.i
+.PHONY : mykernel.cpp.i
+
+mykernel.s: mykernel.cpp.s
+
+.PHONY : mykernel.s
+
+# target to generate assembly for a file
+mykernel.cpp.s:
+	$(MAKE) -f CMakeFiles/assignment1.dir/build.make CMakeFiles/assignment1.dir/mykernel.cpp.s
+.PHONY : mykernel.cpp.s
+
+thread_test.o: thread_test.cc.o
+
+.PHONY : thread_test.o
+
+# target to build an object file
+thread_test.cc.o:
+	$(MAKE) -f CMakeFiles/assignment1.dir/build.make CMakeFiles/assignment1.dir/thread_test.cc.o
+.PHONY : thread_test.cc.o
+
+thread_test.i: thread_test.cc.i
+
+.PHONY : thread_test.i
+
+# target to preprocess a source file
+thread_test.cc.i:
+	$(MAKE) -f CMakeFiles/assignment1.dir/build.make CMakeFiles/assignment1.dir/thread_test.cc.i
+.PHONY : thread_test.cc.i
+
+thread_test.s: thread_test.cc.s
+
+.PHONY : thread_test.s
+
+# target to generate assembly for a file
+thread_test.cc.s:
+	$(MAKE) -f CMakeFiles/assignment1.dir/build.make CMakeFiles/assignment1.dir/thread_test.cc.s
+.PHONY : thread_test.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +294,24 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... assignment1"
+	@echo "... cv_test.o"
+	@echo "... cv_test.i"
+	@echo "... cv_test.s"
+	@echo "... lock_test.o"
+	@echo "... lock_test.i"
+	@echo "... lock_test.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
 	@echo "... main_new.o"
 	@echo "... main_new.i"
 	@echo "... main_new.s"
+	@echo "... mykernel.o"
+	@echo "... mykernel.i"
+	@echo "... mykernel.s"
+	@echo "... thread_test.o"
+	@echo "... thread_test.i"
+	@echo "... thread_test.s"
 .PHONY : help
 
 

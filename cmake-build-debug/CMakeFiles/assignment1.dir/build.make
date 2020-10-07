@@ -83,19 +83,79 @@ CMakeFiles/assignment1.dir/main_new.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment1.dir/main_new.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/260153183qq.com/Desktop/assignment1/main_new.cpp -o CMakeFiles/assignment1.dir/main_new.cpp.s
 
+CMakeFiles/assignment1.dir/mykernel.cpp.o: CMakeFiles/assignment1.dir/flags.make
+CMakeFiles/assignment1.dir/mykernel.cpp.o: ../mykernel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/260153183qq.com/Desktop/assignment1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/assignment1.dir/mykernel.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assignment1.dir/mykernel.cpp.o -c /Users/260153183qq.com/Desktop/assignment1/mykernel.cpp
+
+CMakeFiles/assignment1.dir/mykernel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment1.dir/mykernel.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/260153183qq.com/Desktop/assignment1/mykernel.cpp > CMakeFiles/assignment1.dir/mykernel.cpp.i
+
+CMakeFiles/assignment1.dir/mykernel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment1.dir/mykernel.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/260153183qq.com/Desktop/assignment1/mykernel.cpp -o CMakeFiles/assignment1.dir/mykernel.cpp.s
+
+CMakeFiles/assignment1.dir/thread_test.cc.o: CMakeFiles/assignment1.dir/flags.make
+CMakeFiles/assignment1.dir/thread_test.cc.o: ../thread_test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/260153183qq.com/Desktop/assignment1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/assignment1.dir/thread_test.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assignment1.dir/thread_test.cc.o -c /Users/260153183qq.com/Desktop/assignment1/thread_test.cc
+
+CMakeFiles/assignment1.dir/thread_test.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment1.dir/thread_test.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/260153183qq.com/Desktop/assignment1/thread_test.cc > CMakeFiles/assignment1.dir/thread_test.cc.i
+
+CMakeFiles/assignment1.dir/thread_test.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment1.dir/thread_test.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/260153183qq.com/Desktop/assignment1/thread_test.cc -o CMakeFiles/assignment1.dir/thread_test.cc.s
+
+CMakeFiles/assignment1.dir/cv_test.cc.o: CMakeFiles/assignment1.dir/flags.make
+CMakeFiles/assignment1.dir/cv_test.cc.o: ../cv_test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/260153183qq.com/Desktop/assignment1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/assignment1.dir/cv_test.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assignment1.dir/cv_test.cc.o -c /Users/260153183qq.com/Desktop/assignment1/cv_test.cc
+
+CMakeFiles/assignment1.dir/cv_test.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment1.dir/cv_test.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/260153183qq.com/Desktop/assignment1/cv_test.cc > CMakeFiles/assignment1.dir/cv_test.cc.i
+
+CMakeFiles/assignment1.dir/cv_test.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment1.dir/cv_test.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/260153183qq.com/Desktop/assignment1/cv_test.cc -o CMakeFiles/assignment1.dir/cv_test.cc.s
+
+CMakeFiles/assignment1.dir/lock_test.cc.o: CMakeFiles/assignment1.dir/flags.make
+CMakeFiles/assignment1.dir/lock_test.cc.o: ../lock_test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/260153183qq.com/Desktop/assignment1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/assignment1.dir/lock_test.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assignment1.dir/lock_test.cc.o -c /Users/260153183qq.com/Desktop/assignment1/lock_test.cc
+
+CMakeFiles/assignment1.dir/lock_test.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment1.dir/lock_test.cc.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/260153183qq.com/Desktop/assignment1/lock_test.cc > CMakeFiles/assignment1.dir/lock_test.cc.i
+
+CMakeFiles/assignment1.dir/lock_test.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment1.dir/lock_test.cc.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/260153183qq.com/Desktop/assignment1/lock_test.cc -o CMakeFiles/assignment1.dir/lock_test.cc.s
+
 # Object files for target assignment1
 assignment1_OBJECTS = \
 "CMakeFiles/assignment1.dir/main.cpp.o" \
-"CMakeFiles/assignment1.dir/main_new.cpp.o"
+"CMakeFiles/assignment1.dir/main_new.cpp.o" \
+"CMakeFiles/assignment1.dir/mykernel.cpp.o" \
+"CMakeFiles/assignment1.dir/thread_test.cc.o" \
+"CMakeFiles/assignment1.dir/cv_test.cc.o" \
+"CMakeFiles/assignment1.dir/lock_test.cc.o"
 
 # External object files for target assignment1
 assignment1_EXTERNAL_OBJECTS =
 
 assignment1: CMakeFiles/assignment1.dir/main.cpp.o
 assignment1: CMakeFiles/assignment1.dir/main_new.cpp.o
+assignment1: CMakeFiles/assignment1.dir/mykernel.cpp.o
+assignment1: CMakeFiles/assignment1.dir/thread_test.cc.o
+assignment1: CMakeFiles/assignment1.dir/cv_test.cc.o
+assignment1: CMakeFiles/assignment1.dir/lock_test.cc.o
 assignment1: CMakeFiles/assignment1.dir/build.make
 assignment1: CMakeFiles/assignment1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/260153183qq.com/Desktop/assignment1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable assignment1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/260153183qq.com/Desktop/assignment1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable assignment1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/assignment1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

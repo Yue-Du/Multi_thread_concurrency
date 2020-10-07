@@ -14,4 +14,8 @@ add_executable(assignment1
         readfile.h
         producer.h
         consumer.h
-        main_new.cpp)
+        main_new.cpp
+        mykernel.cpp
+        thread_test.cc
+        cv_test.cc
+        lock_test.cc)
